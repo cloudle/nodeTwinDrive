@@ -1,5 +1,3 @@
-var RpcClient = require("./lib/rpcClient").RpcClient;
+var RpcClient = require("./dist/rpcClient").RpcClient;
 
-module.exports = {
-	RpcClient: RpcClient
-};
+module.exports.RpcClient = RpcClient;
